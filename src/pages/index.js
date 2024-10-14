@@ -1,4 +1,4 @@
-// import Link from "next/link";
+import Link from "next/link";
 import { useRouter } from 'next/router';
 
 export default function Home() {
@@ -10,13 +10,13 @@ export default function Home() {
   }, []);
 
   // You can remove this content if you don't want anything displayed on the home page
-  // return (
-  //   <div>
-  //     {/* This content will not be displayed due to the redirect */}
-  //     Hello World.{" "}
-  //     <Link href="/about">
-  //       About
-  //     </Link>
-  //   </div>
-  // );
+  return (
+    <div>
+      {/* This content will not be displayed due to the redirect */}
+      Hello World.{" "}
+      <Link href="/about">
+        About
+      </Link>
+    </div>
+  );
 }
