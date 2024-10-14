@@ -24,4 +24,11 @@ Click the button below to deploy this app on Render.
 
 ####
 
-全支付QRCode: com.pxpay.plus://zjdja
+pxpay   全支付QRCode: com.pxpay.plus://zjdja
+openpoint   OP錢包openpointapp://gofeature?featureId=OPWAA
+icash   icash Pay icashPay://
+pi  pi://
+familymart  familymart://action.go/pluspay/
+twmp    twmpshortcut://?type=scan
+easycard    tw.com.easycard.easycardwallet:/paymentCode
+jk  jkos://showQRCode
