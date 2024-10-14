@@ -27,7 +27,7 @@ const nextConfig = {
       permanent: true, // Set to true for permanent redirect (optional)
     },
     {
-      source: '/linepay/qrcode',
+      source: '/linepay/scan',
       destination: 'line://pay/scanQR',
       permanent: true, // Set to true for permanent redirect (optional)
     },
