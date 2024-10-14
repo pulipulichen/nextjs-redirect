@@ -11,6 +11,16 @@ const nextConfig = {
       destination: 'https://blog.pulipuli.info/',
       permanent: true, // Set to true for permanent redirect (optional)
     },
+    {
+      source: '/jkos/qrcode',
+      destination: 'jkos://showQRCode',
+      permanent: true, // Set to true for permanent redirect (optional)
+    },
+    {
+      source: '/jkos/scan',
+      destination: 'jkos://scanQRCode',
+      permanent: true, // Set to true for permanent redirect (optional)
+    },
   ],
 };
 
