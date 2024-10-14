@@ -5,5 +5,5 @@ export default function About() {
     window.location.href = "https://blog.pulipuli.info";
   }, []);
 
-  return <div>Redirecting...</div>;
+  // return <div>Redirecting...</div>;
 }
