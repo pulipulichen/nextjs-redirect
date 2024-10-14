@@ -1,3 +1,9 @@
+import { useEffect } from 'react';
+
 export default function About() {
-  return <div>About</div>;
+  useEffect(() => {
+    window.location.href = "https://blog.pulipuli.info";
+  }, []);
+
+  return <div>Redirecting...</div>;
 }
