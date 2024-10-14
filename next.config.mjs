@@ -23,12 +23,12 @@ const nextConfig = {
     },
     {
       source: '/linepay/qrcode',
-      destination: 'jkos://generateQR',
+      destination: 'line://pay/generateQR',
       permanent: true, // Set to true for permanent redirect (optional)
     },
     {
       source: '/linepay/qrcode',
-      destination: 'jkos://scanQR',
+      destination: 'line://pay/scanQR',
       permanent: true, // Set to true for permanent redirect (optional)
     },
     {
