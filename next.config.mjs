@@ -21,6 +21,21 @@ const nextConfig = {
       destination: 'jkos://scanQRCode',
       permanent: true, // Set to true for permanent redirect (optional)
     },
+    {
+      source: '/linepay/qrcode',
+      destination: 'jkos://generateQR',
+      permanent: true, // Set to true for permanent redirect (optional)
+    },
+    {
+      source: '/linepay/qrcode',
+      destination: 'jkos://scanQR',
+      permanent: true, // Set to true for permanent redirect (optional)
+    },
+    {
+      source: '/pxpay',
+      destination: 'com.pxpay.plus://zjdja',
+      permanent: true, // Set to true for permanent redirect (optional)
+    },
   ],
 };
 
